@@ -134,30 +134,6 @@ If you experience issues with JTegraNX, you just want to try a different payload
 
 ::::
 
-:::: tab Mac-Alternative
-
-This is an alternative incase CrystalRCM does not work for you.
-
-### What you need:
-
-- The latest release of [JTegraNX](https://github.com/DefenderOfHyrule/JTegraNX/releases)
-- A USB-C to USB-A cable **or** a USB-C to USB-C cable capable of transfering data
-- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/) (Note: the hekate boot file is inside the .zip as a .bin file)
-- Basic terminal knowledge (for instance, cd)
-- Atleast Java 11 or more (ideally 21 LTS)
-
-### Instructions
-
-1. Download the JTegraNX-X.X.X.jar file.
-2. Open a Terminal window and cd your way to it.
-3. Type this in the terminal: `java -jar JTegraNX-X.X.X.jar -cml` (Note: the cml argument is very important otherwise it will not launch!)
-4. Connect your switch into the RCM mode.
-5. Type in `inject` followed by the path to your hekate boot file (.bin); For instance: `inject /Users/<user>/Downloads/hekate/hekate_boot.bin`
-6. You can also just type inject and drag and drop the .bin file from the hekate folder -- don't forget to remove the space!
-7. Hit enter and you should see the hekate screen. You may proceed to the rest of the guide.
-
-::::
-
 :::: tab Android
 
 ### What you need:
